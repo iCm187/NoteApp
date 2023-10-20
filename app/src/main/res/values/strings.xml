@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NoteApp</string>
+    <string name="entrer_une_mati_re">Entrer une matière</string>
+    <string name="saisie_des_mati_res">Saisie des matières</string>
+    <string name="entrer_un_coefficient">Entrer un coefficient</string>
+    <string name="entrer_une_matiere">Entrer une matière</string>
+    <string name="enregistrer">Enregistrer</string>
+    <string name="consulter_la_liste_des_mati_res">Consulter la liste des matières</string>
+</resources>

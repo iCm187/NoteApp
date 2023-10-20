@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="60dp"
+        android:layout_marginVertical="40dp"
+        android:text="@string/saisie_des_mati_res"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/editMatiere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/entrer_une_matiere" />
+
+    <EditText
+        android:id="@+id/editCoefficient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/entrer_un_coefficient"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/btnMatiere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enregistrer"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/consulter_la_liste_des_mati_res"
+        android:layout_marginTop="20dp" />
+
+
+</LinearLayout>
